@@ -1,0 +1,31 @@
+#+TITLE: orgwiki layer
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+Make a personal wiki using OrgMode!
+
+Configure =org-wiki-location= in your =user-config= to your choice of directory.
+By default, =~/org/wiki= is used.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =orgwiki= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding   | Description                           |
+|---------------+---------------------------------------|
+| ~SPC a o w a~ | Insert asset link                     |
+| ~SPC a o w d~ | Open asset directory for current page |
+| ~SPC a o w h~ | Go to home page                       |
+| ~SPC a o w i~ | Insert page link                      |
+| ~SPC a o w j~ | Jump to page (if helm enabled)        |
+| ~SPC a o w n~ | Create new page                       |
+
+See ~SPC SPC org-wiki-help~ for full list of commands.
