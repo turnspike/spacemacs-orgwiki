@@ -1,5 +1,7 @@
 #+TITLE: orgwiki layer
 
+Extracted from: https://github.com/swaroopch/spacemacs
+
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
