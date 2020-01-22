@@ -15,9 +15,9 @@ Configure =org-wiki-location= in your =user-config= to your choice of directory.
 By default, =~/org/wiki= is used.
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+To use this configuration layer, clone (or copy) it to your =.emacs.d/private= directory. Subsequently add it to your =~/.spacemacs= file. You will need to
 add =orgwiki= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+file. If this does not work then also rename the =spacemacs-orgwiki= directory to just =orgwiki=.
 
 * Key bindings
 
